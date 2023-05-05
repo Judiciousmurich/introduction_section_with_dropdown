@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.links{
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.links li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(132, 128, 128);
+    margin-right: 20px;
+    
+}
+.nav_buttons{
+    margin-right: 40px;
+}
+.log-in{
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    margin-right: 30px;
+    font-family: sans-serif;
+    
+}
+.register{
+    margin-left: -185px;
+    margin-right: 30px;
+    border-radius: 13px;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    background-color: white;
+}
+.img-container{
+    height: 65vh;
+    width: 20vw;
+    margin-right: 250px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+.body-section{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    margin-left: 50px;
+
+}
+.paragraph{
+    width: 250px;
+    color: rgb(103, 92, 92);
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.body-section-title{
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.Learn-more{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+}
+.svg-body-secton{
+    font-weight: bolder;
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+.dropdown li a{
+    text-decoration: none;
+}
+.dropdown li{
+    list-style: none;
+}
+
+.dropdown{
+    display: none;
+}
+.features:hover .dropdown{
+position: absolute;
+display: block;
+}
+.company:hover .dropdown{
+    position: absolute;
+    display: block;
+}
