@@ -86,7 +86,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column-reverse;
+/*     flex-direction: column-reverse; */
     
 }
 .container{
